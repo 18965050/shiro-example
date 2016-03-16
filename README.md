@@ -9,5 +9,8 @@
 - Maven 3.2.3 or better
 - Shiro 1.2.3
 
+## 原文地址
+https://github.com/zhangkaitao/shiro-example
+
 ## 读书笔记
 https://github.com/18965050/shiro-example/wiki
