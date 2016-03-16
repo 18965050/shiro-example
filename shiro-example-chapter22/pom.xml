@@ -168,6 +168,7 @@
         </plugins>
     </build>
 
+
     <repositories>
         <repository>
             <id>oschina Releases</id>
@@ -175,5 +176,6 @@
             <url>http://maven.oschina.net/content/groups/public</url>
         </repository>
     </repositories>
+    
 
 </project>

@@ -42,9 +42,9 @@ public class NonConfigurationCreateTest {
         //设置Realm
         DruidDataSource ds = new DruidDataSource();
         ds.setDriverClassName("com.mysql.jdbc.Driver");
-        ds.setUrl("jdbc:mysql://localhost:3306/shiro");
+        ds.setUrl("jdbc:mysql://127.0.0.1:3306/shiro");
         ds.setUsername("root");
-        ds.setPassword("");
+        ds.setPassword("1234");
 
         JdbcRealm jdbcRealm = new JdbcRealm();
         jdbcRealm.setDataSource(ds);

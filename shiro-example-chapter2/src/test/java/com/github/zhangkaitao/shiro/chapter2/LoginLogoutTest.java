@@ -53,7 +53,7 @@ public class LoginLogoutTest {
     }
 
 
-    @Test
+  //  @Test
     public void testCustomRealm() {
         //1、获取SecurityManager工厂，此处使用Ini配置文件初始化SecurityManager
         Factory<org.apache.shiro.mgt.SecurityManager> factory =
@@ -81,7 +81,7 @@ public class LoginLogoutTest {
         subject.logout();
     }
 
-    @Test
+  //  @Test
     public void testCustomMultiRealm() {
         //1、获取SecurityManager工厂，此处使用Ini配置文件初始化SecurityManager
         Factory<org.apache.shiro.mgt.SecurityManager> factory =
@@ -110,7 +110,7 @@ public class LoginLogoutTest {
     }
 
 
-    @Test
+   // @Test
     public void testJDBCRealm() {
         //1、获取SecurityManager工厂，此处使用Ini配置文件初始化SecurityManager
         Factory<org.apache.shiro.mgt.SecurityManager> factory =
